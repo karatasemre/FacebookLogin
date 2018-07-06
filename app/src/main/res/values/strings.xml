@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">TutorialFacebookLogin</string>
-    <string name="facebook_app_id">XXXXX</string>
-    <string name="fb_login_protocol_scheme">YYYYYY</string>
+    <string name="facebook_app_id">1007065666133821</string>
+    <string name="fb_login_protocol_scheme">fb1007065666133821</string>
 </resources>

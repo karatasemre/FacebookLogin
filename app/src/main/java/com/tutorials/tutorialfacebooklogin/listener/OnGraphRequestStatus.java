@@ -8,6 +8,6 @@ import com.tutorials.tutorialfacebooklogin.model.AlbumModel;
 
 public interface OnGraphRequestStatus {
 
-    public void onSuccess(String coverPhotoUrl);
-    public void onError(String message);
+    void onSuccess(String coverPhotoUrl);
+    void onError(String message);
 }

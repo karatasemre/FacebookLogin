@@ -44,8 +44,6 @@ public class GraphManager {
                             public void onCompleted(
                                     JSONObject jsonObject,
                                     GraphResponse response) {
-                                // Application code for user
-                                int y = 1;
                                 try {
                                     PreferencesUtility.setFbUserId(context, jsonObject.get("id").toString());
                                     callback.onCompleted(response);
@@ -70,7 +68,6 @@ public class GraphManager {
             public void onBatchCompleted(GraphRequestBatch graphRequests) {
                 // Application code for when the batch finishes
 
-
             }
         });
         batch.executeAsync();
@@ -94,7 +91,6 @@ public class GraphManager {
                                     final String id = ((JSONObject) albumDatas.get(i)).get("id").toString();
                                     final String albumName = ((JSONObject) albumDatas.get(i)).get("name").toString();
                                     final String coverPhoto = ((JSONObject) albumDatas.get(i)).getJSONObject("cover_photo").get("id").toString();
-
 
                                     albumModel.add(new AlbumModel(id, albumName, coverPhoto, null));
 
@@ -144,7 +140,6 @@ public class GraphManager {
                         }
                     }
                 }
-
         );
 
         Bundle parameters = new Bundle();
