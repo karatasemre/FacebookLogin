@@ -6,7 +6,7 @@ Facebook Login Tutorial
 - Get all album's photos
 
 
-Create facebook_app_id
+Create facebook_app_id and add string file
 
 
 
