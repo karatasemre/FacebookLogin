@@ -10,6 +10,8 @@ Create facebook_app_id and add string file
 
 ## Questions?🤔
 Hit me on 
-[![Linkedin](https://img.shields.io/badge/Facebook-Burhanuddin%20Rashid-blue.svg)](https://www.linkedin.com/in/emre-karata%C5%9F-062b26a9/)
+
+[![Travis (.org)](https://img.shields.io/travis/:user/:repo.svg)](https://www.linkedin.com/in/emre-karata%C5%9F-062b26a9/)
+
 [![Facebook](https://img.shields.io/badge/Facebook-Burhanuddin%20Rashid-blue.svg)](https://www.facebook.com/emre.karatas.311)
 
